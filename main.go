@@ -1,6 +1,7 @@
 package main
 
 import (
+	"goconcurrent/sqrt"
 	"goconcurrent/threegoroutines"
 	"goconcurrent/twogoroutines"
 )
@@ -8,4 +9,5 @@ import (
 func main() {
 	threegoroutines.Start()
 	twogoroutines.Start()
+	sqrt.Start()
 }
